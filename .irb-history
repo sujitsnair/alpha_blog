@@ -1,0 +1,97 @@
+first_name="Sujit"
+last_name="S Nair"
+first_name + " " + last_name
+first_name.class
+first_name.methods
+first_name.string?
+first_name.nil?
+"my name is sujit s nair"
+name="my name is sujit"
+"my name is #{name}"
+first_name.length
+firstname.empty?
+first_name.empty?
+" ".empty?
+"".empty?
+'Hi John, greg said \'how are you\''
+1+2
+puts 3*5
+puts 20/3
+puts 20/3.to_f
+puts 20.0/3
+x=10
+y=22
+y=y.to_f
+y/x
+y/x.to_f
+clear
+cls
+35.times {puts "Sujit"}
+x="sujit"
+x*50
+puts x*50
+20.times {sujit}
+20.times {puts sujit}
+20.times {puts "1"}
+names=["sujit","anjana","simi","manish"]
+names.each do |sj|
+puts "Hello #{sj.capitalize}"
+names.each {|s| puts"Hello #{s.capitaize}"}
+names.each {|s| puts"Hello #{s.capitalize}"}
+y
+y=(0..99).to_a
+y.shuffle!
+y.select {|sj| sj.odd?}
+y.select {|sj| sj.even?}
+p=["My","Name","Is","Sujit"]
+p.join
+p.join(' ')
+a.empty?
+a.imclude(2)?
+irb
+exit
+a=[1,2,3,4,5,6,7,8,9]
+a.include(2)?
+a.include?(2)
+arrayname.include?()arrayname.include?()
+a.reverse
+arrayname.reverse!
+a.reverse!
+a.shuffle
+a.push(30)
+a<<34
+a.unshift(344)
+a.pop
+a
+a.uniq
+(0..25).to_a
+(0..99).to_a.shuffle!
+y=(0..99).to_a.shuffle!
+y.each{|i| puts i}
+print "hELLO #{i}"
+print "Hello #{i}"
+for i in a
+print i
+a.each do |i|
+puts "HELLO #{i}"
+end
+y.each {|i| i.odd?}
+y.select {|i| i.odd?}
+a.hoin
+a.join
+a.join#to join all elements of an array
+a.join(" " )
+a.join("-")
+my_details={"name"=>"Sujit","favcolour"=>"navy blue"}
+my_details["favcolour"]
+myhash={a:1,b:2,c:3}
+myhash(c)
+myhash(:c)
+myhash[:c]
+myhash[:d]=7
+myhash
+myhash.delete(:d)
+myhash.each {|i,v| puts v}
+myhash.each {|i,v| puts "Key is #{i} and value is #{v}"}
+myhash.each {|k,v| myhash.delete(k) if v>2}
+myhash.select{|i,v| v.odd?}
